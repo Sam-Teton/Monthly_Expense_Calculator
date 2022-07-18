@@ -14,7 +14,7 @@ current_date <- Sys.Date()
 
 # Import expenses dataframe
 
-monthly_expenses <- read_excel("Minor/Personal_stuff.xlsx", sheet="month")
+monthly_expenses <- read_excel("Month.xlsx", sheet="month")
 
 monthly_expenses_1 <- rename(monthly_expenses, day_of_month=1)
 
